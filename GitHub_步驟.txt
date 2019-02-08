@@ -1,0 +1,18 @@
+1.到要上傳的資料夾裡面
+2.輸入
+git config --global user.name '名稱'
+git config --global user.email '***@gmail.com'
+透過 git config -l 查看名稱與mail是否正確
+3.製作GitHub項目
+  git init
+  git remote add origin https://github.com/JohnnieWu/project.git
+查看底下目錄
+  git status
+
+git add .
+git commit -m 'first_commit'
+
+git push -u origin master
+
+下載
+git clone https://github.com/JohnnieWu/project.git
