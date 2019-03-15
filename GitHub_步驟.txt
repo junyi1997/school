@@ -1,12 +1,12 @@
-1.¨ì­n¤W¶Çªº¸ê®Æ§¨¸Ì­±
-2.¿é¤J
-git config --global user.name '¦WºÙ'
+1.åˆ°è¦ä¸Šå‚³çš„è³‡æ–™å¤¾è£¡é¢
+2.è¼¸å…¥
+git config --global user.name 'åç¨±'
 git config --global user.email '***@gmail.com'
-³z¹L git config -l ¬d¬İ¦WºÙ»Pmail¬O§_¥¿½T
-3.»s§@GitHub¶µ¥Ø
+é€é git config -l æŸ¥çœ‹åç¨±èˆ‡mailæ˜¯å¦æ­£ç¢º
+3.è£½ä½œGitHubé …ç›®
   git init
   git remote add origin https://github.com/JohnnieWu/project.git
-¬d¬İ©³¤U¥Ø¿ı
+æŸ¥çœ‹åº•ä¸‹ç›®éŒ„
   git status
 
 git add .
@@ -14,5 +14,7 @@ git commit -m 'first_commit'
 
 git push -u origin master
 
-¤U¸ü
+ä¸‹è¼‰
 git clone https://github.com/JohnnieWu/project.git
+
+git pull --rebase
